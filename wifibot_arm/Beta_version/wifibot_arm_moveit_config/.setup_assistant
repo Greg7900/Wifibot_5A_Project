@@ -1,0 +1,11 @@
+moveit_setup_assistant_config:
+  URDF:
+    package: pincher_arm_description
+    relative_path: urdf/mod.urdf.xacro
+    xacro_args: ""
+  SRDF:
+    relative_path: config/pincher_arm.srdf
+  CONFIG:
+    author_name: gregory
+    author_email: gregorydavillars@hotmail.fr
+    generated_timestamp: 1701515882
